@@ -1,0 +1,102 @@
+baseURL: "https://example.com"
+languageCode: "en-us"
+title: "Mica Molder | Full Stack Engineer"
+theme: "hugo-profile"
+
+googleanalytics: UA-xxxxxxxxx-x
+disqusShortname: yourdiscussshortname
+Paginate: 3
+
+taxonomies:
+  tag: "tags"
+  category: "categories"
+
+params:
+  favicon: "/images/favicon.ico"
+  description: "This is a portfolio page molded by Marica Molder."
+  disqus: ""
+  copyright: "2021"
+
+  # Background
+  custombackground: false
+  background: ""
+  backimg: ""
+  
+  # Contact
+  contact: true
+  action: ""
+  email: "maricamolder+site@gmail.com"
+    
+  # Home
+  name: "Mica"
+  profile: "https://www.linkedin.com/in/mmolder/"
+  github: "https://github.com/agent-Molder"
+  linkedin: "https://www.linkedin.com/in/mmolder/"
+  twitter: "https://twitter.com/UFOnotation"
+  instagram: "https://instagram.com/ufonotation"
+
+  # About
+  profile_image: "/images/mica.jpeg"
+  description1: "Hey, if you're here, you probably want to know a little bit about me. I'm a Full Stack Engineer currently working at 1Password. I'm all about making sure I help my team out however I can, but in my time away from work, I'm your quintessential nerd."
+  description2: "Video games, creating video games, programming, anime, plain old tv (With a surname like mine, you'd better believe I grew up on X-Files). I'm majorly into all of it. I'm even a bit of a music geek. Aside from that, I'm big on crafts and like to sew and draw when I'm not in front of a screen."
+  job: "Full Stack Developer"
+  resume: "/docs/resume.pdf"
+
+  # skills 
+  useSkills: true
+  usedefaultlogos: false
+  
+  #projects
+  projects:
+  - title: "Project name"
+    image: "/images/project-preview.jpg"
+    description:  ""
+    secondarylink: false
+    secondaryurlname: "secondary link"
+    secondaryurl: ""
+    sourceurl: ""
+  
+  - title: "Project name"
+    image: "/images/project-preview.jpg"
+    description:  ""
+    secondarylink: false
+    secondaryurlname: "secondary link"
+    secondaryurl: ""
+    sourceurl: ""
+
+  - title: "Project name"
+    image: "/images/project-preview.jpg"
+    description:  ""
+    secondarylink: false
+    secondaryurlname: "secondary link"
+    secondaryurl: ""
+    sourceurl: ""
+
+  - title: "Project name"
+    image: "/images/project-preview.jpg"
+    description:  ""
+    secondarylink: false
+    secondaryurlname: "secondary link"
+    secondaryurl: ""
+    sourceurl: ""
+
+  - title: "Project name"
+    image: "/images/project-preview.jpg"
+    description:  ""
+    secondarylink: false
+    secondaryurlname: "secondary link"
+    secondaryurl: ""
+    sourceurl: ""
+
+  - title: "Project name"
+    image: "/images/project-preview.jpg"
+    description:  ""
+    secondarylink: false
+    secondaryurlname: "secondary link"
+    secondaryurl: ""
+    sourceurl: ""
+  
+
+themeAuthor:
+  name: "Gurusabarish"
+  website: "https://github.com/gurusabarish"

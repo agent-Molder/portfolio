@@ -1,0 +1,23 @@
+  { 
+	"skills":[
+		{
+	   		"title":"Java",
+	   		"logo":"",
+			"description":"I've been programming in Java since mid-2018.",
+			"read":"Read more >",
+			"link":"https://brackettobracket.wordpress.com/"
+		},
+		{
+			"title":"Web Development",
+			"description":"This site is an ongoing testament to my love of development.",
+			"read":"Read more >",
+			"link":"blog/everything/"
+		},
+		{
+			"title":"Data",
+			"description":"I love data! I built some of this very site on JSON and YAML.",
+			"read":"Read more >",
+			"link":"/blog/ait-data-1/"
+		}
+	]
+}
