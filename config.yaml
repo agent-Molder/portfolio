@@ -1,10 +1,7 @@
 baseURL: "https://example.com"
 languageCode: "en-us"
 title: "Mica Molder | Full Stack Engineer"
-theme: "hugo-profile"
 
-googleanalytics: UA-xxxxxxxxx-x
-disqusShortname: yourdiscussshortname
 Paginate: 3
 
 taxonomies:
