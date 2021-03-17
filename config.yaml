@@ -1,102 +1,55 @@
-baseURL: "https://example.com"
+baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
-title: "Mica Molder | Full Stack Engineer"
-theme: "hugo-profile"
+title: "Hugo-profile"
 
-googleanalytics: UA-xxxxxxxxx-x
-disqusShortname: yourdiscussshortname
+googleanalytics: UA-167646412-8
+disqusShortname: gurusabarish
 Paginate: 3
 
 taxonomies:
   tag: "tags"
   category: "categories"
 
+enableEmoji: true
 params:
-  favicon: "/images/favicon.ico"
-  description: "This is a portfolio page molded by Marica Molder."
-  disqus: ""
+  favicon: "/images/fav.png"
+  description: "A high performance hugo theme for personal website. It is single page portfolio. It has blog."
   copyright: "2021"
 
-  # Background
-  custombackground: false
-  background: ""
-  backimg: ""
-  
-  # Contact
-  contact: true
-  action: ""
-  email: "maricamolder+site@gmail.com"
-    
-  # Home
-  name: "Mica"
-  profile: "https://www.linkedin.com/in/mmolder/"
-  github: "https://github.com/agent-Molder"
-  linkedin: "https://www.linkedin.com/in/mmolder/"
-  twitter: "https://twitter.com/UFOnotation"
-  instagram: "https://instagram.com/ufonotation"
+  # Navbar Menus
+  customMenus:
+    - name: "Blog"
+      Url: "/blog"
+
+  # social
+  name: "Hugo-profile"
+  github: "https://github.com"
+  linkedin: "https://linkedin.com"
+  twitter: "https://twitter.com"
+  instagram: "https://instagram.com"
+  facebook: "https://facebook.com"
 
   # About
-  profile_image: "/images/mica.jpeg"
-  description1: "Hey, if you're here, you probably want to know a little bit about me. I'm a Full Stack Engineer currently working at 1Password. I'm all about making sure I help my team out however I can, but in my time away from work, I'm your quintessential nerd."
-  description2: "Video games, creating video games, programming, anime, plain old tv (With a surname like mine, you'd better believe I grew up on X-Files). I'm majorly into all of it. I'm even a bit of a music geek. Aside from that, I'm big on crafts and like to sew and draw when I'm not in front of a screen."
-  job: "Full Stack Developer"
-  resume: "/docs/resume.pdf"
+  profile_image: "/images/profile.webp"
+  descripe_l1_person: "Hi, I'm Hugo-profile, a high performance theme for portfolio and blog. It's created and maintained by Gurusabarish who is web developer and machine learning enthusiast."
+  descripe_l2_person: ""
+  useresume: true
+  resume: ""
 
-  # skills 
-  useSkills: true
-  usedefaultlogos: false
-  
-  #projects
-  projects:
-  - title: "Project name"
-    image: "/images/project-preview.jpg"
-    description:  ""
-    secondarylink: false
-    secondaryurlname: "secondary link"
-    secondaryurl: ""
-    sourceurl: ""
-  
-  - title: "Project name"
-    image: "/images/project-preview.jpg"
-    description:  ""
-    secondarylink: false
-    secondaryurlname: "secondary link"
-    secondaryurl: ""
-    sourceurl: ""
+  # Things I do
+  usedothings: true
+  Things:
+    - logo: fab fa-python
+      title: Python
+      description: I build something beautiful using Python.
 
-  - title: "Project name"
-    image: "/images/project-preview.jpg"
-    description:  ""
-    secondarylink: false
-    secondaryurlname: "secondary link"
-    secondaryurl: ""
-    sourceurl: ""
+    - logo: fas fa-robot
+      title: Machine learning
+      description: I train robust models for various tasks.
 
-  - title: "Project name"
-    image: "/images/project-preview.jpg"
-    description:  ""
-    secondarylink: false
-    secondaryurlname: "secondary link"
-    secondaryurl: ""
-    sourceurl: ""
+    - logo: fab fa-html5
+      title: Things for web
+      description: I love to build things for web
 
-  - title: "Project name"
-    image: "/images/project-preview.jpg"
-    description:  ""
-    secondarylink: false
-    secondaryurlname: "secondary link"
-    secondaryurl: ""
-    sourceurl: ""
-
-  - title: "Project name"
-    image: "/images/project-preview.jpg"
-    description:  ""
-    secondarylink: false
-    secondaryurlname: "secondary link"
-    secondaryurl: ""
-    sourceurl: ""
-  
-
-themeAuthor:
-  name: "Gurusabarish"
-  website: "https://github.com/gurusabarish"
+  #Description for seo. If you want to show description in your blog post, let's make it true
+  showdescription: false

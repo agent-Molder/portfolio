@@ -1,0 +1,28 @@
+{{ if .Site.Params.useSkills }}
+    <section class="skills text-center" id="do-things">
+        <div class="container">
+            <h2 class="skills__text text-success py-4 font-weight-bold">
+                Skills
+            </h2>
+
+            <div class="skills--card">
+                <div class="row pb-2 justify-content-center">
+                    {{ range .Site.Data.skills.skills }}
+                    <div class="col-lg-3 col-md-4">
+                        <div class="skills--height shadow rounded p-4 my-2 mb-4 skills--card">
+                            <i class="fa-{{ index . `logo` }} fa-3x" width="3em" height="3em"></i>
+                            <p class="p-2 font-weight-bold text-success">
+                                {{ index . "title" }}
+                            </p>
+                            <p class="py-4 skills__text skills__text--small">
+                                {{ index . "description" }}
+                            </p>
+                            <a class="text-info" href="{{ index . "link" }}">{{ index . "read" }}</a>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+</section>
+{{ end }}
